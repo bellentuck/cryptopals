@@ -1,0 +1,22 @@
+{
+  "name": "cryptopals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenges_set_1.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.specs.js --reporter spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.27"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
